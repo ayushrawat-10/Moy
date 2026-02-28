@@ -5,6 +5,7 @@ const int MAX = 100;
 void inputMatrix(double a[][MAX], double b[], double x[], int &n, double &epsilon, int &maxIterations) {
     cout << "Enter number of variables: ";
     cin >> n;
+    cout << "in siedal";
     cout << "Enter the coefficients of the matrix (row-wise):\n";
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)

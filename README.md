@@ -6,7 +6,8 @@ using namespace std;
 void merge(int arr[], int st, int mid, int end) {
     int temp[end - st + 1];
     int i = st, j = mid + 1, idx = 0;
-
+    
+    cout << "in redme";
     while (i <= mid && j <= end) {
         if (arr[i] < arr[j]) {
             temp[idx++] = arr[i++];

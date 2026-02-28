@@ -4,6 +4,7 @@ using namespace std;
 const int MAX = 100; 
 const double EPS = 1e-6;
 int main() {
+    cout << "again try";
     int n;
     double a[MAX][MAX + 1], x[MAX];
     cout << "Enter the number of variables: ";

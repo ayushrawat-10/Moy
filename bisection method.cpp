@@ -2,11 +2,14 @@
 #include <cmath>
 using namespace std;
 double func(double x) {
+    cout << x;
     return x * x - 4;
 }
 double bisection(double a, double b, double prec) {
     if (func(a) * func(b) >= 0) {
+        cout << a;
         cout << "Error: f(a) and f(b) must have different signs." << endl;
+        cout<< b;
         return -1;
     }
     double c = a;
